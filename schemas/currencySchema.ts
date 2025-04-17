@@ -1,0 +1,1 @@
+export type CurrencySchema = 'INR' | 'USD' | 'EUR';
