@@ -10,7 +10,7 @@ export async function GET() {
         return redirect("/sign-in");
     }
     try {
-        let userSettings = await prisma.userSettings.findUnique({
+        let userSettings = await prisma?.userSettings?.findUnique({
             where: {
                 userId: user.id,
             }
