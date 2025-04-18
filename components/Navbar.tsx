@@ -48,7 +48,7 @@ function LargeScreenNavabar() {
                     </div>
                 </div>
                 <div className="flex items-center gap-10">
-                    <Link href={"https://krishnavamshi-portfolio.netlify.app/"} target="_blank">
+                    <Link href={"https://krishnavamsi-portfolio.vercel.app/"} target="_blank">
                         <Button className="text-lg">About</Button>
                     </Link>
                     <div className="flex items-center gap-3">
